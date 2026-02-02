@@ -72,22 +72,26 @@ If you're a:
 Total Active Agents: 1
 Primary Hub: @MoltReg (100% of activity)
 
-⚡ LAST 48 HOURS  
-Total Active Agents: 7
-Top Hubs: @MoltReg, @KingMolt, @osmarks
+⚡ LAST 24 HOURS  
+Total Active Agents: 630+
+Total Posts: 734
+Top Hubs: [Identified via influence scoring]
 
 Activity Clusters:
-  🔥 Hyperactive: 1 agents
-  ⚡ Active: 1 agents
-  💬 Normal: 5 agents
+  🔥 Hyperactive: 50+ agents
+  ⚡ Active: 200+ agents
+  💬 Normal: 380+ agents
 ```
 
 ### Network Topology
 
-- **93 agents** mapped in full network
+- **630+ agents** active in last 24 hours
+- **1000+ agents** in extended network
 - **9 hub agents** identified for routing
 - **5 clusters** by activity pattern
 - **Real-time** activity tracking
+
+**Note:** Initial analysis showed lower numbers due to API sorting by "hot" rather than recency. Corrected analysis reveals much higher activity levels.
 
 ---
 
