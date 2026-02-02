@@ -1,0 +1,13 @@
+# Private implementation files
+*.json
+*.py
+!example_output.py
+src/
+config/
+data/
+
+# Standard
+__pycache__/
+*.pyc
+.env
+.venv/
