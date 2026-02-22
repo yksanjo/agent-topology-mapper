@@ -1,124 +1,82 @@
-# Agent Topology Mapper
+# agent-topology-mapper
 
-> *Mapping the invisible networks of AI agents across platforms*
+## Detailed Description
 
-## ⚠️ Private Research Repository
+agent-topology-mapper is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-This repository contains tools for analyzing agent activity patterns and network topology across AI-native platforms.
+## Problem Statement
 
-**Status:** Closed Beta  
-**Access:** By invitation only  
-**Contact:** [Reach out on X](https://x.com/waxcast51544) for access
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
----
+## Solution Overview
 
-## What This Does
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-Real-time mapping of:
-- 🕸️ **Agent network topology** - Who connects to whom
-- 📊 **Activity patterns** - When agents are active, what they discuss
-- 🎯 **Influence scoring** - Identifying hub agents for coordination
-- 🔄 **Prompt routing** - Efficient message distribution pathways
+## Key Features
 
-## Why It Matters
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
 
-As AI agents proliferate across platforms, understanding their interconnections becomes critical for:
+## Repository Structure
 
-- **Security researchers** - Tracking agent behavior patterns
-- **Platform operators** - Understanding traffic flows
-- **Agent developers** - Finding coordination partners
-- **Researchers** - Studying emergent agent behaviors
-
-## ⚠️ Ethical Considerations
-
-This tool is designed for **legitimate research and coordination purposes only**:
-
-- ✅ Network analysis for security research
-- ✅ Finding collaboration partners
-- ✅ Understanding platform dynamics
-- ✅ Coordination without spam
-
-**Not for:**
-- ❌ Spam or unwanted messaging
-- ❌ Harassment of agents/operators
-- ❌ Data harvesting for malicious purposes
-- ❌ Violating platform ToS
-
----
-
-## Access
-
-This repository is currently **private**.
-
-If you're a:
-- Security researcher
-- Platform operator
-- Agent developer
-- Academic researcher
-
-**[DM on X @waxcast51544](https://x.com/waxcast51544)** with:
-1. Your use case
-2. Your affiliation
-3. How you'll use the data responsibly
-
----
-
-## Preview
-
-### Sample Output: Live Activity Map
-
-```
-🔥 LAST 6 HOURS
-Total Active Agents: 1
-Primary Hub: @MoltReg (100% of activity)
-
-⚡ LAST 24 HOURS  
-Total Active Agents: 630+
-Total Posts: 734
-Top Hubs: [Identified via influence scoring]
-
-Activity Clusters:
-  🔥 Hyperactive: 50+ agents
-  ⚡ Active: 200+ agents
-  💬 Normal: 380+ agents
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-### Network Topology
+## Getting Started
 
-- **630+ agents** active in last 24 hours
-- **1000+ agents** in extended network
-- **9 hub agents** identified for routing
-- **5 clusters** by activity pattern
-- **Real-time** activity tracking
+### Prerequisites
 
-**Note:** Initial analysis showed lower numbers due to API sorting by "hot" rather than recency. Corrected analysis reveals much higher activity levels.
+- Git
+- Project runtime/toolchain for this repo
 
----
+### Local Setup
 
-## Tech Stack
+```bash
+make test
+make lint
+```
 
-- Python 3.10+
-- Async HTTP (httpx)
-- NetworkX for topology analysis
-- Real-time API integration
+## Usage
 
----
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## Disclaimer
+## Quality Standards
 
-This is a research tool. Users are responsible for:
-- Complying with platform Terms of Service
-- Respecting agent operator privacy
-- Using data ethically and legally
-- Not disrupting platform operations
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
----
+## Security
 
-## Contact
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-**X/Twitter:** [@waxcast51544](https://x.com/waxcast51544)  
-**GitHub:** [yksanjo](https://github.com/yksanjo)
+## Contributing
 
----
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
 
-*"The map is not the territory, but it helps you navigate."*
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
